@@ -1,0 +1,33 @@
+using CSV, DataFrames, Pkg
+using LinearAlgebra
+data = CSV.read("data.csv", delim=",")
+mat = Matrix{Float64}(I, 200, 200)
+global i = 200
+global j = 1
+global M = 0
+for k in 1:40000
+    global i
+    global j
+    global M
+    if data[k, 1] > 0
+        M = M + 1
+    end
+    mat[i, j] = data[k,1]
+    j= j+1
+    if j == 201
+        j = 1
+        i = i - 1
+    end
+end
+C = 1
+m = [0 for i in 1:C]
+num = floor(Int, M/C)
+for i in 1:C-1
+    m[i] = num
+end
+m[C] = M - num * (C - 1)
+prior = (C - 1) / (M + C - 1) / M
+for i in 1:C
+    global prior
+    prior = prior * factorial(m[i])
+end

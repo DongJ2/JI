@@ -1,0 +1,55 @@
+using CSV, DataFrames, Pkg
+using LinearAlgebra
+data = CSV.read("data.csv", delim=",")
+mat = Matrix{Float64}(I, 40000, 3)
+num = 0
+for i in 1:40000
+    global num
+    if data[i, 1]>0
+        num = num + 1
+    end
+end
+mat = Matrix{Float64}(I, num, 3)
+k = 1
+for i in 1:40000
+    global k
+    if data[i, 1]>0
+        mat[k, 1] = ceil(Int, i/200)
+        mat[k, 2] = i - floor(Int, i/200)*200 + 1
+        mat[k, 3] = data[i, 1]
+        k = k + 1
+    end
+end
+print(mat)
+
+i_select = 0
+j_select = 0
+r_k = 0
+P_T = 0
+D = mat
+while k > 1
+    for i in 1:k
+        for j in i+1:k
+            pi =
+            p_H =
+            p_T = pi * p_H + (1 - pi) * P[i] * P[j]
+            r = pi * p_H / p_T
+            if r > r_k
+                r_k = r
+                i_select = i
+                j_select = j
+                P_T = p_T
+            end
+        end
+    end
+    if r_k < 0.5
+        break
+    else
+        k = k - 1
+        delete D[j]
+        D[i].append(D[j])
+        delete P[j]
+        P[i] = P_T
+    end
+end
+print(k)
