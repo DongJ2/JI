@@ -1,0 +1,25 @@
+Round 1
+Creature (food east 0 0) takes action: infect
+Creature (ad north 0 2) takes action: right
+fo_e ____ ad_e ____ 
+____ ____ ____ ____ 
+____ ____ ____ ____ 
+____ ____ ____ ____ 
+Round 2
+Creature (food east 0 0) takes action: hop
+Creature (ad east 0 2) takes action: hop
+____ fo_e ____ ad_e 
+____ ____ ____ ____ 
+____ ____ ____ ____ 
+____ ____ ____ ____ 
+Round 3
+Creature (food east 0 1) takes action: right
+Round 4
+Creature (food south 0 1) takes action: infect
+Creature (ad east 0 3) takes action: right
+____ fo_s ____ ad_s 
+____ ____ ____ ____ 
+____ ____ ____ ____ 
+____ ____ ____ ____ 
+Round 5
+Creature (food south 0 1) takes action: hop
