@@ -1,0 +1,1 @@
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/dj/2017su/Ve270/Lab/Lab1/Circuit1.sch" Circuit1.vhf

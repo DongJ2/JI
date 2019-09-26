@@ -1,0 +1,54 @@
+Determining compilation order of HDL files
+Analyzing VHDL file Circuit1.vhf
+Restoring VHDL parse-tree ieee.std_logic_1164 from
+d:/xilinx/ise/vhdl/hdp/nt/ieee/std_logic_1164.vdb
+Restoring VHDL parse-tree std.standard from
+d:/xilinx/ise/vhdl/hdp/nt/std/standard.vdb
+Restoring VHDL parse-tree ieee.numeric_std from
+d:/xilinx/ise/vhdl/hdp/nt/ieee/numeric_std.vdb
+Restoring VHDL parse-tree unisim.vcomponents from
+d:/xilinx/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+Analyzing VHDL file test.vhw
+Restoring VHDL parse-tree ieee.std_logic_textio from
+d:/xilinx/ise/vhdl/hdp/nt/ieee/std_logic_textio.vdb
+Restoring VHDL parse-tree std.textio from
+d:/xilinx/ise/vhdl/hdp/nt/std/textio.vdb
+Restoring VHDL parse-tree ieee.std_logic_arith from
+d:/xilinx/ise/vhdl/hdp/nt/ieee/std_logic_arith.vdb
+Restoring VHDL parse-tree ieee.std_logic_unsigned from
+d:/xilinx/ise/vhdl/hdp/nt/ieee/std_logic_unsigned.vdb
+Saving VHDL parse-tree work.circuit1 into
+d:/dj/2017su/ve270/lab/lab1/isim/work/circuit1.vdb
+Saving VHDL parse-tree work.test into
+d:/dj/2017su/ve270/lab/lab1/isim/work/test.vdb
+Starting static elaboration
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 867.
+   Range is empty (null range)
+WARNING:HDLCompiler:746 - "N:/K.31/rtf/vhdl/src/ieee/numeric_std.vhd" Line 868.
+   Range is empty (null range)
+Restoring VHDL parse-tree unisim.xor2 from
+d:/xilinx/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+Restoring VHDL parse-tree unisim.and2 from
+d:/xilinx/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+Restoring VHDL parse-tree unisim.or2 from
+d:/xilinx/ise/vhdl/hdp/nt/unisim/unisim.vdbl
+Completed static elaboration
+Fuse Memory Usage: 201292 Kb
+Fuse CPU Usage: 921 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package numeric_std from library ieee
+Using precompiled package textio from library std
+Using precompiled package std_logic_textio from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Compiling package vcomponents
+Compiling architecture xor2_v of entity xor2 [xor2_default]
+Compiling architecture and2_v of entity and2 [and2_default]
+Compiling architecture or2_v of entity or2 [or2_default]
+Compiling architecture behavioral of entity circuit1 [circuit1_default]
+Compiling architecture testbench_arch of entity test
+Compiled 17 VHDL Units
+Built simulation executable test_isim_beh.exe
+Fuse Memory Usage: 202380 Kb
+Fuse CPU Usage: 1000 ms

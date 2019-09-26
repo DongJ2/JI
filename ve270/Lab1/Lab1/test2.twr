@@ -1,0 +1,57 @@
+--------------------------------------------------------------------------------
+Release 10.1 Trace  (nt)
+Copyright (c) 1995-2008 Xilinx, Inc.  All rights reserved.
+
+D:\Xilinx\ISE\bin\nt\unwrapped\trce.exe -ise
+D:/dj/2017su/Ve270/Lab/Lab1/Lab1.ise -intstyle ise -e 3 -s 4 -xml test2
+test2.ncd -o test2.twr test2.pcf -ucf test2.ucf
+
+Design file:              test2.ncd
+Physical constraint file: test2.pcf
+Device,package,speed:     xc3s1200e,fg320,-4 (PRODUCTION 1.27 2008-01-09)
+Report level:             error report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A              |carry          |    9.830|
+A              |sum            |   11.882|
+B              |carry          |    9.805|
+B              |sum            |   11.735|
+C              |carry          |    9.768|
+C              |sum            |   12.156|
+---------------+---------------+---------+
+
+
+Analysis completed Tue May 23 18:46:49 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 142 MB
+
+
+

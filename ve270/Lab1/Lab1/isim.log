@@ -1,0 +1,38 @@
+Command line:
+   ./test_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50585
+
+Sat Nov 18 19:43:17 2017
+
+Total Line Count : 23
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 184.123 Meg
+
+ Total Signals          : 48
+ Total Nets             : 28
+ Total Signal Drivers   : 8
+ Total Blocks           : 14
+ Total Primitive Blocks : 5
+ Total Processes        : 6
+ Total Traceable Variables  : 18
+ Total Scalar Nets and Variables : 1050
+ntrace select -o on -n /test/a 
+ntrace select -o on -n /test/b 
+ntrace select -o on -n /test/c 
+ntrace select -o on -n /test/carry 
+ntrace select -o on -n /test/sum 
+ntrace start 
+isimrun 1000 ns 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+ Total Simulation Time: 0.109375 sec
+
+ Current Memory Usage: 196.674 Meg
+
+Sat Nov 18 19:43:24 2017
+

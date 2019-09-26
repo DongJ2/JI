@@ -1,0 +1,7 @@
+sch2vhdl -intstyle ise -family spartan3e -flat -suppress -w "D:/dj/2017su/Ve270/Lab/Lab1/test2.sch" test2.vhf
+xst -ise "D:/dj/2017su/Ve270/Lab/Lab1/Lab1.ise" -intstyle ise -ifn "D:/dj/2017su/Ve270/Lab/Lab1/test2.xst" -ofn "D:/dj/2017su/Ve270/Lab/Lab1/test2.syr"
+ngdbuild -ise "D:/dj/2017su/Ve270/Lab/Lab1/Lab1.ise" -intstyle ise -dd _ngo  -nt timestamp -i -p xc3s1200e-fg320-4 "test2.ngc" test2.ngd
+map -ise "D:/dj/2017su/Ve270/Lab/Lab1/Lab1.ise" -intstyle ise -p xc3s1200e-fg320-4 -cm area -pr off -k 4 -c 100 -o test2_map.ncd test2.ngd test2.pcf
+par -ise "D:/dj/2017su/Ve270/Lab/Lab1/Lab1.ise" -w -intstyle ise -ol std -t 1 test2_map.ncd test2.ncd test2.pcf
+trce -ise "D:/dj/2017su/Ve270/Lab/Lab1/Lab1.ise" -intstyle ise -e 3 -s 4 -xml test2 test2.ncd -o test2.twr test2.pcf -ucf test2.ucf
+bitgen -ise "D:/dj/2017su/Ve270/Lab/Lab1/Lab1.ise" -intstyle ise -f test2.ut test2.ncd
