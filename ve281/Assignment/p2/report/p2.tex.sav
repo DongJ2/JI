@@ -1,0 +1,72 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{listings}
+\geometry{a4paper,left=2cm,right=2cm,top=2cm,bottom=2cm}
+\title{Programming Assignment 2}
+\author{Dong Jing 515370910182,}
+\date{October 2017}
+
+
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+
+
+% Upper part of the page
+\textsc{\LARGE }
+ \\[3cm]
+
+\textsc{\LARGE VE281}\\[5cm]
+
+\textsc{\Large P2 REPORT}\\[5cm]
+
+
+% Title
+\textsc{by}\\[1cm]
+\textsc{\Large Dong Jing 515370910182}\\[0.5cm]
+
+
+
+% Bottom of the page
+{\large \today}
+
+\end{center}
+
+\end{titlepage}
+\section{Object}
+I. Study the performances of linear-time selection algorithms with different input size;\\
+II. Compare the results and have a better understanding about linear-time selection algorithms algorithms;\\
+II. Compare the runtime of two selection algorithms and the runtime of the selection algorithms with the sorting algorithms;\\
+\section{Design}
+Note: all program are executed on Ubuntu (64-bit) with memory equal to 2048 MB on Oracle VM VirtualBox 5.1.22 r115126.\\
+\\
+Use mrand48() to generate random arrays. And use rand()\%$n$ to generate the order number less than $n$.
+\section{Result}
+Table 1 shows are data we recorded. The unit of all data is CLOCK\_PER\_SEC.\\
+\begin{table}[!hbp]
+\centering
+\begin{tabular}{|c||c|c|c|}
+\hline
+Input Size & Random selection & Deterministic selection & Quick sorting selection\\
+\hline
+10 & 12 & 1 15 \\
+
+\end{tabular}
+\caption{}
+\end{table}
+
+\section{Discussion and Conclusion}
+
+\section{Appendix}
+
+\end{document}

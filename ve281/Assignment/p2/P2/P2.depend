@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1507099538 source:d:\dj\2017fa\ve281\assignment\p2\p2\main.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+	<climits>
+	<ctime>
+	<cassert>
+	"selection.h"
+
+1507097619 d:\dj\2017fa\ve281\assignment\p2\p2\selection.h
+
+1507099507 source:d:\dj\2017fa\ve281\assignment\p2\p2\selection.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+	<climits>
+	<ctime>
+	<cassert>
+	"selection.h"
+

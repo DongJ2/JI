@@ -1,0 +1,55 @@
+
+Input size is 10
+Rselect:	12
+Dselect:	1
+Quicksort	15
+
+Input size is 50
+Rselect:	16
+Dselect:	2
+Quicksort	58
+
+Input size is 100
+Rselect:	27
+Dselect:	6
+Quicksort	113
+
+Input size is 500
+Rselect:	30
+Dselect:	42
+Quicksort	983
+
+Input size is 1000
+Rselect:	44
+Dselect:	108
+Quicksort	1888
+
+Input size is 5000
+Rselect:	171
+Dselect:	1076
+Quicksort	7908
+
+Input size is 10000
+Rselect:	232
+Dselect:	1022
+Quicksort	13479
+
+Input size is 50000
+Rselect:	1510
+Dselect:	6207
+Quicksort	109161
+
+Input size is 100000
+Rselect:	3420
+Dselect:	13719
+Quicksort	269834
+
+Input size is 500000
+Rselect:	13969
+Dselect:	57528
+Quicksort	989549
+
+Input size is 1000000
+Rselect:	25049
+Dselect:	93762
+Quicksort	1163245

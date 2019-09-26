@@ -1,0 +1,72 @@
+
+Input size is 10
+bubble   :	4 CLOCK_PER_SEC
+insertion:	0 CLOCK_PER_SEC
+selection:	0 CLOCK_PER_SEC
+merge    :	1 CLOCK_PER_SEC
+quick_ex :	10 CLOCK_PER_SEC
+quick_in :	10 CLOCK_PER_SEC
+
+Input size is 50
+bubble   :	10 CLOCK_PER_SEC
+insertion:	4 CLOCK_PER_SEC
+selection:	6 CLOCK_PER_SEC
+merge    :	7 CLOCK_PER_SEC
+quick_ex :	48 CLOCK_PER_SEC
+quick_in :	45 CLOCK_PER_SEC
+
+Input size is 100
+bubble   :	31 CLOCK_PER_SEC
+insertion:	9 CLOCK_PER_SEC
+selection:	19 CLOCK_PER_SEC
+merge    :	12 CLOCK_PER_SEC
+quick_ex :	93 CLOCK_PER_SEC
+quick_in :	95 CLOCK_PER_SEC
+
+Input size is 500
+bubble   :	731 CLOCK_PER_SEC
+insertion:	223 CLOCK_PER_SEC
+selection:	404 CLOCK_PER_SEC
+merge    :	82 CLOCK_PER_SEC
+quick_ex :	536 CLOCK_PER_SEC
+quick_in :	506 CLOCK_PER_SEC
+
+Input size is 1000
+bubble   :	3685 CLOCK_PER_SEC
+insertion:	1019 CLOCK_PER_SEC
+selection:	1866 CLOCK_PER_SEC
+merge    :	193 CLOCK_PER_SEC
+quick_ex :	1174 CLOCK_PER_SEC
+quick_in :	1145 CLOCK_PER_SEC
+
+Input size is 5000
+bubble   :	112788 CLOCK_PER_SEC
+insertion:	37153 CLOCK_PER_SEC
+selection:	50975 CLOCK_PER_SEC
+merge    :	1245 CLOCK_PER_SEC
+quick_ex :	8150 CLOCK_PER_SEC
+quick_in :	7424 CLOCK_PER_SEC
+
+Input size is 10000
+bubble   :	835026 CLOCK_PER_SEC
+insertion:	112935 CLOCK_PER_SEC
+selection:	325789 CLOCK_PER_SEC
+merge    :	8967 CLOCK_PER_SEC
+quick_ex :	22590 CLOCK_PER_SEC
+quick_in :	16126 CLOCK_PER_SEC
+
+Input size is 50000
+bubble   :	17817515 CLOCK_PER_SEC
+insertion:	3299634 CLOCK_PER_SEC
+selection:	5269035 CLOCK_PER_SEC
+merge    :	42050 CLOCK_PER_SEC
+quick_ex :	222990 CLOCK_PER_SEC
+quick_in :	187324 CLOCK_PER_SEC
+
+Input size is 100000
+bubble   :	61788652 CLOCK_PER_SEC
+insertion:	15795805 CLOCK_PER_SEC
+selection:	29900281 CLOCK_PER_SEC
+merge    :	41445 CLOCK_PER_SEC
+quick_ex :	243163 CLOCK_PER_SEC
+quick_in :	256087 CLOCK_PER_SEC

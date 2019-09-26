@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1506352994 source:d:\dj\2017fa\ve281\assignment\p1\time\sort.cpp
+	<iostream>
+	<fstream>
+	<sstream>
+	<string>
+	<cstdlib>
+	<climits>
+	<ctime>
+	<cassert>
+	"sort.h"
+
+1505903314 d:\dj\2017fa\ve281\assignment\p1\time\sort.h
+
