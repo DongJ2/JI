@@ -1,0 +1,10 @@
+Name: DONG Jing
+SID: 515370910182
+E-mail: Kyle_dj@sjtu.edu.cn
+
+Description: 
+The structure of the header is checksum, seq, payload size and end.
+When receving a message, sender will divide data into several parts and build several packets.
+When building a packet, sender will set a checksum by crc32 (which is implemented in rdt_crc.cc)
+For the receiver, it will first keep data in a buffer, and when it find a packet whose end value is true,
+it will start to load data into a message which will be sent to next part.
