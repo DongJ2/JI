@@ -1,0 +1,146 @@
+m = 3
+
+i = 1
+rem = -3
+j = 0, rem = 3
+
+i = 2
+rem = 3
+rem = -3
+j = 0, rem = 3
+R: 0 3 6 
+t: 0 0 1 
+KK: 0 3 3 
+runtime for generating input_dist: 0.001
+
+#block 0
+k = 6
+
+#block 1
+k = 3
+
+#block 2
+k = 3
+block = 0
+block = 1
+block = 2
+runtime for obtaining block distribution: 0.003
+pp, pg, pk: 
+pp[0] = 0.015605
+pg[0] = 0.491556
+pk[0] = 0.492839
+pp[1] = 0.12484
+pg[1] = 0.43694
+pk[1] = 0.438221
+pp[2] = 0.233674
+pg[2] = 0.382963
+pk[2] = 0.383363
+
+$SUB_lb: 
+SUB_lb[0] = 0
+SUB_lb[1] = 6
+SUB_lb[2] = 9
+CG_lb[0] = 0
+CG_lb_ind[0] = -1
+CG_lb[1] = 3
+CG_lb_ind[1] = 0
+CG_lb[2] = 3
+CG_lb_ind[2] = 0
+**********************************************
+start computing error distribution!
+
+i = 1, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+left = 5, right = 3
+runtime for compute_P_nonuni: 0
+ppl = 0.12484
+left = 2, right = 0
+runtime for compute_G_nonuni: 0
+pgr = 0.436939
+start_block = 0, j = 0
+e[i][j] = 0.0545473
+&consider block i-1:
+e[i][j] = 0.0545473
+
+i = 2, j = 0
+case2: equal!
+
+i = 2, j = 1
+case1: t[i] >= i - j
+runtime for the for loop 0
+values of e: 
+e[1][0] = 0.0545473
+e[2][0] = 0
+e[2][1] = 0
+count_loop = 3
+
+Entering into ED!
+i = 1, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 64
+
+Entering into ED!
+i = 3, j = 1, ePar = 64, pPar = 0.0545473
+enter into compute_ER! start = 2, end = 1
+i = 1
+R:6, sub_sum: 3
+
+i = 1, d[i] = 1
+values of d: 
+1 1 
+error rate ER = 0
+
+return from ED: 
+ePar = 64, pPar = 0.054547257187
+
+Entering into ED!
+i = 2, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 512
+
+Entering into ED!
+i = 3, j = 2, ePar = 512, pPar = 0
+
+return from ED: 
+ePar = 512, pPar = 0
+
+Entering into ED!
+i = 3, j = 0, ePar = 0, pPar = 1
+enter into compute_ER! start = 2, end = 0
+
+i = 1, d[i] = -1
+left = 5, right = 3
+runtime for compute_G_nonuni: 0.001
+pgl = 0.436938778274
+i = 1
+v_part1 = 0.0156049521901, v_part2 = 0.436938778274, v_part3 = 0.49283893504, v_part4 = 0
+
+i = 2, d[i] = -1
+left = 5, right = 3
+pgl = 0.436938778274
+i = 2
+v_part1 = 0.00194811632598, v_part2 = 0.0545472717276, v_part3 = 0.475812244535, v_part4 = 0.413075032916
+values of d: 
+1 0.945382665504 0.945382665504 
+error rate ER = 0.0546173344958
+
+return from ED: 
+ePar = 0, pPar = 0.945382665504
+runtime for ED: 0.001
+count = 5
+sum_prob = 0.054547257187
+
+ed_prob_map: 
+64: 0.054547257187
+512: 0
+MSE = 223.425565438, MED = 3.49102445997
+
+
+ed_prob: 
+6: 0.054547257187
+9: 0
+
+6 9 
+0.054547257187 0 
+total runtime: 0.005
+total time: 5042

@@ -1,0 +1,76 @@
+m = 5
+
+i = 1
+rem = -2
+j = 0, rem = 1
+
+i = 2
+rem = -1
+j = 1, rem = 1
+
+i = 3
+rem = -1
+j = 2, rem = 1
+
+i = 4
+rem = 0
+R: 0 1 1 1 2 
+t: 0 0 0 0 1 
+KK: 0 1 1 1 0 
+pp, pg, pk: 
+pp[0] = 0.125
+pg[0] = 0.4375
+pk[0] = 0.4375
+pp[1] = 0.25
+pg[1] = 0.375
+pk[1] = 0.375
+pp[2] = 0.25
+pg[2] = 0.375
+pk[2] = 0.375
+pp[3] = 0.25
+pg[3] = 0.375
+pk[3] = 0.375
+pp[4] = 0.25
+pg[4] = 0.375
+pk[4] = 0.375
+
+$SUB_lb: 
+SUB_lb[0] = 0
+SUB_lb[1] = 3
+SUB_lb[2] = 5
+SUB_lb[3] = 7
+SUB_lb[4] = 9
+CG_lb[0] = 0
+CG_lb_ind[0] = -1
+CG_lb[1] = 2
+CG_lb_ind[1] = 0
+CG_lb[2] = 4
+CG_lb_ind[2] = 1
+CG_lb[3] = 6
+CG_lb_ind[3] = 2
+CG_lb[4] = 7
+CG_lb_ind[4] = 2
+**********************************************
+start computing error rate!
+enter into compute_ER! start = 4, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.125, v_part2 = 0.25, v_part3 = 0.4375, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.03125, v_part2 = 0.203125, v_part3 = 0.414062, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.0078125, v_part2 = 0.162109, v_part3 = 0.34668, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 0.00195312, v_part2 = 0, v_part3 = 0.280396, v_part4 = 0.193726
+values of d: 
+1 0.8125 0.648438 0.516602 0.476074 
+error rate ER = 0.523926
+total runtime: 0.001
+total time: 669

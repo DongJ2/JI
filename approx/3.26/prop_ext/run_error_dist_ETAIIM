@@ -1,0 +1,4 @@
+#./main 16 4 4 2 1 > ./out/2017.4.20/error_dist/ETAIIM/geo/n16s4r4.out
+./main 24 3 3 2 3 > ./out/2017.4.20/error_dist/ETAIIM/gau/n24s3r3.out
+#./main 24 4 4 2 3 > ./out/2017.4.20/error_dist/ETAIIM/geo/n24s4r4.out
+#./main 24 3 3 2 1 > ./out/2017.4.20/error_dist/ETAIIM/geo/n24s3r3.out

@@ -1,0 +1,8 @@
+./main 16 4 4 2 2 > ./out/2017.4.20/error_dist/ACA/gau/n16s4r4.out
+./main 20 4 4 2 2 > ./out/2017.4.20/error_dist/ACA/gau/n20s4r4.out
+./main 24 4 4 2 2 > ./out/2017.4.20/error_dist/ACA/gau/n24s4r4.out
+#./main 32 4 4 2 1 > ./out/2017.4.20/error_dist/ACA/gau/n32s4r4.out
+#./main 64 4 4 2 1 > ./out/2017.4.20/error_dist/ACA/gau/n64s4r4.out
+#./main 24 3 3 2 1 > ./out/2017.4.20/error_dist/ACA/gau/n24s3r3.out
+#./main 24 3 3 2 2 > ./out/2017.4.20/error_dist/ACA/gau/n24s3r3.out
+#./main 24 3 3 2 3 > ./out/2017.4.20/error_dist/ACA/geo/n24s3r3.out

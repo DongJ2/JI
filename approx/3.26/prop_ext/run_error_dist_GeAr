@@ -1,0 +1,10 @@
+#./main 16 3 7 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n16s3r7.out
+#./main 16 5 1 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n16s5r1.out
+#./main 16 3 4 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n16s3r4.out
+./main 16 4 0 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n16s4r0.out
+./main 20 3 2 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n20s3r2.out
+#./main 22 4 2 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n22s4r2.out
+#./main 24 3 0 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n24s3r0.out
+#./main 32 3 2 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n32s3r2.out
+#./main 64 5 4 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n64s5r4.out
+#./main 64 3 4 2 2 > ./out/2017.4.20/error_dist/GeAr/gau/n64s3r4.out

@@ -1,0 +1,2522 @@
+m = 8
+
+i = 1
+
+i = 2
+
+i = 3
+
+i = 4
+
+i = 5
+
+i = 6
+
+i = 7
+R: 0 0 0 0 0 0 0 0 
+t: 0 0 0 0 0 0 0 0 
+KK: 0 0 0 0 0 0 0 0 
+pp, pg, pk: 
+pp[0] = 0.0625
+pg[0] = 0.46875
+pk[0] = 0.46875
+pp[1] = 0.0625
+pg[1] = 0.46875
+pk[1] = 0.46875
+pp[2] = 0.0625
+pg[2] = 0.46875
+pk[2] = 0.46875
+pp[3] = 0.0625
+pg[3] = 0.46875
+pk[3] = 0.46875
+pp[4] = 0.0625
+pg[4] = 0.46875
+pk[4] = 0.46875
+pp[5] = 0.0625
+pg[5] = 0.46875
+pk[5] = 0.46875
+pp[6] = 0.0625
+pg[6] = 0.46875
+pk[6] = 0.46875
+pp[7] = 0.0625
+pg[7] = 0.46875
+pk[7] = 0.46875
+
+$SUB_lb: 
+SUB_lb[0] = 0
+SUB_lb[1] = 4
+SUB_lb[2] = 8
+SUB_lb[3] = 12
+SUB_lb[4] = 16
+SUB_lb[5] = 20
+SUB_lb[6] = 24
+SUB_lb[7] = 28
+CG_lb[0] = 0
+CG_lb_ind[0] = -1
+CG_lb[1] = 4
+CG_lb_ind[1] = 0
+CG_lb[2] = 8
+CG_lb_ind[2] = 1
+CG_lb[3] = 12
+CG_lb_ind[3] = 2
+CG_lb[4] = 16
+CG_lb_ind[4] = 3
+CG_lb[5] = 20
+CG_lb_ind[5] = 4
+CG_lb[6] = 24
+CG_lb_ind[6] = 5
+CG_lb[7] = 28
+CG_lb_ind[7] = 6
+**********************************************
+start computing error distribution!
+
+i = 1, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 0, j = 0
+e[i][j] = 0.46875
+&consider block i-1:
+e[i][j] = 0.46875
+
+i = 2, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 1, j = 0
+enter into compute_ER! start = 1, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+e[i][j] = 0.249023
+&consider block i-1:
+e[i][j] = 0.249023
+
+i = 3, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 2, j = 0
+enter into compute_ER! start = 2, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 
+error rate ER = 0.717773
+e[i][j] = 0.132294
+&consider block i-1:
+e[i][j] = 0.132294
+
+i = 4, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 3, j = 0
+enter into compute_ER! start = 3, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 
+error rate ER = 0.850067
+e[i][j] = 0.070281
+&consider block i-1:
+e[i][j] = 0.070281
+
+i = 5, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 4, j = 0
+enter into compute_ER! start = 4, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52588e-05, v_part2 = 0, v_part3 = 0.0796366, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 0.0796518 
+error rate ER = 0.920348
+e[i][j] = 0.0373368
+&consider block i-1:
+e[i][j] = 0.0373368
+
+i = 6, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 5, j = 0
+enter into compute_ER! start = 5, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52588e-05, v_part2 = 0, v_part3 = 0.0796366, v_part4 = 0
+
+i = 5, d[i] = -1
+i = 5
+v_part1 = 9.53674e-07, v_part2 = 0, v_part3 = 0.0423141, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 0.0796518 0.042315 
+error rate ER = 0.957685
+e[i][j] = 0.0198352
+&consider block i-1:
+e[i][j] = 0.0198352
+
+i = 7, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 6, j = 0
+enter into compute_ER! start = 6, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52588e-05, v_part2 = 0, v_part3 = 0.0796366, v_part4 = 0
+
+i = 5, d[i] = -1
+i = 5
+v_part1 = 9.53674e-07, v_part2 = 0, v_part3 = 0.0423141, v_part4 = 0
+
+i = 6, d[i] = -1
+i = 6
+v_part1 = 5.96046e-08, v_part2 = 0, v_part3 = 0.0224798, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 0.0796518 0.042315 0.0224799 
+error rate ER = 0.97752
+e[i][j] = 0.0105374
+&consider block i-1:
+e[i][j] = 0.0105374
+
+i = 2, j = 1
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 1, j = 1
+e[i][j] = 0.46875
+&consider block i-1:
+e[i][j] = 0.46875
+
+i = 3, j = 1
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 2, j = 1
+enter into compute_ER! start = 2, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+e[i][j] = 0.249023
+&consider block i-1:
+e[i][j] = 0.249023
+
+i = 4, j = 1
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 3, j = 1
+enter into compute_ER! start = 3, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 
+error rate ER = 0.717773
+e[i][j] = 0.132294
+&consider block i-1:
+e[i][j] = 0.132294
+
+i = 5, j = 1
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 4, j = 1
+enter into compute_ER! start = 4, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 
+error rate ER = 0.850067
+e[i][j] = 0.070281
+&consider block i-1:
+e[i][j] = 0.070281
+
+i = 6, j = 1
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 5, j = 1
+enter into compute_ER! start = 5, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52588e-05, v_part2 = 0, v_part3 = 0.0796366, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 0.0796518 
+error rate ER = 0.920348
+e[i][j] = 0.0373368
+&consider block i-1:
+e[i][j] = 0.0373368
+
+i = 7, j = 1
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 6, j = 1
+enter into compute_ER! start = 6, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52588e-05, v_part2 = 0, v_part3 = 0.0796366, v_part4 = 0
+
+i = 5, d[i] = -1
+i = 5
+v_part1 = 9.53674e-07, v_part2 = 0, v_part3 = 0.0423141, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 0.0796518 0.042315 
+error rate ER = 0.957685
+e[i][j] = 0.0198352
+&consider block i-1:
+e[i][j] = 0.0198352
+
+i = 3, j = 2
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 2, j = 2
+e[i][j] = 0.46875
+&consider block i-1:
+e[i][j] = 0.46875
+
+i = 4, j = 2
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 3, j = 2
+enter into compute_ER! start = 3, end = 2
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+e[i][j] = 0.249023
+&consider block i-1:
+e[i][j] = 0.249023
+
+i = 5, j = 2
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 4, j = 2
+enter into compute_ER! start = 4, end = 2
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 
+error rate ER = 0.717773
+e[i][j] = 0.132294
+&consider block i-1:
+e[i][j] = 0.132294
+
+i = 6, j = 2
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 5, j = 2
+enter into compute_ER! start = 5, end = 2
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 
+error rate ER = 0.850067
+e[i][j] = 0.070281
+&consider block i-1:
+e[i][j] = 0.070281
+
+i = 7, j = 2
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 6, j = 2
+enter into compute_ER! start = 6, end = 2
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52588e-05, v_part2 = 0, v_part3 = 0.0796366, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 0.0796518 
+error rate ER = 0.920348
+e[i][j] = 0.0373368
+&consider block i-1:
+e[i][j] = 0.0373368
+
+i = 4, j = 3
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 3, j = 3
+e[i][j] = 0.46875
+&consider block i-1:
+e[i][j] = 0.46875
+
+i = 5, j = 3
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 4, j = 3
+enter into compute_ER! start = 4, end = 3
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+e[i][j] = 0.249023
+&consider block i-1:
+e[i][j] = 0.249023
+
+i = 6, j = 3
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 5, j = 3
+enter into compute_ER! start = 5, end = 3
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 
+error rate ER = 0.717773
+e[i][j] = 0.132294
+&consider block i-1:
+e[i][j] = 0.132294
+
+i = 7, j = 3
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 6, j = 3
+enter into compute_ER! start = 6, end = 3
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.149689, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 0.149933 
+error rate ER = 0.850067
+e[i][j] = 0.070281
+&consider block i-1:
+e[i][j] = 0.070281
+
+i = 5, j = 4
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 4, j = 4
+e[i][j] = 0.46875
+&consider block i-1:
+e[i][j] = 0.46875
+
+i = 6, j = 4
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 5, j = 4
+enter into compute_ER! start = 5, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+e[i][j] = 0.249023
+&consider block i-1:
+e[i][j] = 0.249023
+
+i = 7, j = 4
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 6, j = 4
+enter into compute_ER! start = 6, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.27832, v_part4 = 0
+values of d: 
+1 0.53125 0.282227 
+error rate ER = 0.717773
+e[i][j] = 0.132294
+&consider block i-1:
+e[i][j] = 0.132294
+
+i = 6, j = 5
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 5, j = 5
+e[i][j] = 0.46875
+&consider block i-1:
+e[i][j] = 0.46875
+
+i = 7, j = 5
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 6, j = 5
+enter into compute_ER! start = 6, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+e[i][j] = 0.249023
+&consider block i-1:
+e[i][j] = 0.249023
+
+i = 7, j = 6
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 1
+pgr = 0.46875
+start_block = 6, j = 6
+e[i][j] = 0.46875
+&consider block i-1:
+e[i][j] = 0.46875
+runtime for the for loop 0.003
+values of e: 
+e[1][0] = 0.46875
+e[2][0] = 0.249023
+e[3][0] = 0.132294
+e[4][0] = 0.070281
+e[5][0] = 0.0373368
+e[6][0] = 0.0198352
+e[7][0] = 0.0105374
+e[2][1] = 0.46875
+e[3][1] = 0.249023
+e[4][1] = 0.132294
+e[5][1] = 0.070281
+e[6][1] = 0.0373368
+e[7][1] = 0.0198352
+e[3][2] = 0.46875
+e[4][2] = 0.249023
+e[5][2] = 0.132294
+e[6][2] = 0.070281
+e[7][2] = 0.0373368
+e[4][3] = 0.46875
+e[5][3] = 0.249023
+e[6][3] = 0.132294
+e[7][3] = 0.070281
+e[5][4] = 0.46875
+e[6][4] = 0.249023
+e[7][4] = 0.132294
+e[6][5] = 0.46875
+e[7][5] = 0.249023
+e[7][6] = 0.46875
+count_loop = 28
+
+Entering into ED!
+i = 1, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 16
+
+Entering into ED!
+i = 2, j = 1, ePar = 16, pPar = 0.46875
+ePar = 16new_ePar = 272
+
+Entering into ED!
+i = 3, j = 2, ePar = 272, pPar = 0.219727
+ePar = 272new_ePar = 4368
+
+Entering into ED!
+i = 4, j = 3, ePar = 4368, pPar = 0.102997
+ePar = 4368new_ePar = 69904
+
+Entering into ED!
+i = 5, j = 4, ePar = 69904, pPar = 0.0482798
+ePar = 69904new_ePar = 1118480
+
+Entering into ED!
+i = 6, j = 5, ePar = 1118480, pPar = 0.0226311
+ePar = 1118480new_ePar = 17895696
+
+Entering into ED!
+i = 7, j = 6, ePar = 17895696, pPar = 0.0106083
+ePar = 17895696new_ePar = 286331152
+
+Entering into ED!
+i = 8, j = 7, ePar = 286331152, pPar = 0.00497266
+ePar = 28.093109399, pPar = 0.00497266228194
+
+Entering into ED!
+i = 8, j = 6, ePar = 17895696, pPar = 0.0106083462015
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0931093184, pPar = 0.00563568391954
+
+Entering into ED!
+i = 7, j = 5, ePar = 1118480, pPar = 0.0226311385632
+ePar = 1118480new_ePar = 269553936
+
+Entering into ED!
+i = 8, j = 7, ePar = 269553936, pPar = 0.00563568391954
+ePar = 28.0059987349, pPar = 0.00563568391954
+
+Entering into ED!
+i = 8, j = 5, ePar = 1118480, pPar = 0.0226311385632
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0931080285, pPar = 0.00638710844214
+
+Entering into ED!
+i = 6, j = 4, ePar = 69904, pPar = 0.0482797622681
+ePar = 69904new_ePar = 16847120
+
+Entering into ED!
+i = 7, j = 6, ePar = 16847120, pPar = 0.0120227923617
+ePar = 16847120new_ePar = 285282576
+
+Entering into ED!
+i = 8, j = 7, ePar = 285282576, pPar = 0.00563568391954
+ePar = 28.0878163943, pPar = 0.00563568391954
+
+Entering into ED!
+i = 8, j = 6, ePar = 16847120, pPar = 0.0120227923617
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0059986493, pPar = 0.00638710844214
+
+Entering into ED!
+i = 7, j = 4, ePar = 69904, pPar = 0.0482797622681
+ePar = 69904new_ePar = 268505360
+
+Entering into ED!
+i = 8, j = 7, ePar = 268505360, pPar = 0.00638710844214
+ePar = 28.0003756472, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 4, ePar = 69904, pPar = 0.0482797622681
+enter into compute_ER! start = 7, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 
+error rate ER = 0.850067138672
+ePar = 16.0930873904, pPar = 0.00723872290109
+
+Entering into ED!
+i = 5, j = 3, ePar = 4368, pPar = 0.102996826172
+ePar = 4368new_ePar = 1052944
+
+Entering into ED!
+i = 6, j = 5, ePar = 1052944, pPar = 0.0256486237049
+ePar = 1052944new_ePar = 17830160
+
+Entering into ED!
+i = 7, j = 6, ePar = 17830160, pPar = 0.0120227923617
+ePar = 17830160new_ePar = 286265616
+
+Entering into ED!
+i = 8, j = 7, ePar = 286265616, pPar = 0.00563568391954
+ePar = 28.0927791545, pPar = 0.00563568391954
+
+Entering into ED!
+i = 8, j = 6, ePar = 17830160, pPar = 0.0120227923617
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0878163133, pPar = 0.00638710844214
+
+Entering into ED!
+i = 7, j = 5, ePar = 1052944, pPar = 0.0256486237049
+ePar = 1052944new_ePar = 269488400
+
+Entering into ED!
+i = 8, j = 7, ePar = 269488400, pPar = 0.00638710844214
+ePar = 28.0056479333, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 5, ePar = 1052944, pPar = 0.0256486237049
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0059972791, pPar = 0.00723872290109
+
+Entering into ED!
+i = 6, j = 3, ePar = 4368, pPar = 0.102996826172
+ePar = 4368new_ePar = 16781584
+
+Entering into ED!
+i = 7, j = 6, ePar = 16781584, pPar = 0.0136258313432
+ePar = 16781584new_ePar = 285217040
+
+Entering into ED!
+i = 8, j = 7, ePar = 285217040, pPar = 0.00638710844214
+ePar = 28.0874849358, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 16781584, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0003755612, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 3, ePar = 4368, pPar = 0.102996826172
+ePar = 4368new_ePar = 268439824
+
+Entering into ED!
+i = 8, j = 7, ePar = 268439824, pPar = 0.00723872290109
+ePar = 28.0000234754, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 3, ePar = 4368, pPar = 0.102996826172
+enter into compute_ER! start = 7, end = 3
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52587890625e-05, v_part2 = 0, v_part3 = 0.0796365737915, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 0.0796518325806 
+error rate ER = 0.920348167419
+ePar = 12.0927571409, pPar = 0.00820388595457
+
+Entering into ED!
+i = 4, j = 2, ePar = 272, pPar = 0.2197265625
+ePar = 272new_ePar = 65808
+
+Entering into ED!
+i = 5, j = 4, ePar = 65808, pPar = 0.0547170639038
+ePar = 65808new_ePar = 1114384
+
+Entering into ED!
+i = 6, j = 5, ePar = 1114384, pPar = 0.0256486237049
+ePar = 1114384new_ePar = 17891600
+
+Entering into ED!
+i = 7, j = 6, ePar = 17891600, pPar = 0.0120227923617
+ePar = 17891600new_ePar = 286327056
+
+Entering into ED!
+i = 8, j = 7, ePar = 286327056, pPar = 0.00563568391954
+ePar = 28.093088761, pPar = 0.00563568391954
+
+Entering into ED!
+i = 8, j = 6, ePar = 17891600, pPar = 0.0120227923617
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0927790739, pPar = 0.00638710844214
+
+Entering into ED!
+i = 7, j = 5, ePar = 1114384, pPar = 0.0256486237049
+ePar = 1114384new_ePar = 269549840
+
+Entering into ED!
+i = 8, j = 7, ePar = 269549840, pPar = 0.00638710844214
+ePar = 28.0059768123, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 5, ePar = 1114384, pPar = 0.0256486237049
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0878150187, pPar = 0.00723872290109
+
+Entering into ED!
+i = 6, j = 4, ePar = 65808, pPar = 0.0547170639038
+ePar = 65808new_ePar = 16843024
+
+Entering into ED!
+i = 7, j = 6, ePar = 16843024, pPar = 0.0136258313432
+ePar = 16843024new_ePar = 285278480
+
+Entering into ED!
+i = 8, j = 7, ePar = 285278480, pPar = 0.00638710844214
+ePar = 28.0877956803, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 16843024, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0056478476, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 4, ePar = 65808, pPar = 0.0547170639038
+ePar = 65808new_ePar = 268501264
+
+Entering into ED!
+i = 8, j = 7, ePar = 268501264, pPar = 0.00723872290109
+ePar = 28.000353639, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 4, ePar = 65808, pPar = 0.0547170639038
+enter into compute_ER! start = 7, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 
+error rate ER = 0.850067138672
+ePar = 16.0059753565, pPar = 0.00820388595457
+
+Entering into ED!
+i = 5, j = 2, ePar = 272, pPar = 0.2197265625
+ePar = 272new_ePar = 1048848
+
+Entering into ED!
+i = 6, j = 5, ePar = 1048848, pPar = 0.0290684401989
+ePar = 1048848new_ePar = 17826064
+
+Entering into ED!
+i = 7, j = 6, ePar = 17826064, pPar = 0.0136258313432
+ePar = 17826064new_ePar = 286261520
+
+Entering into ED!
+i = 8, j = 7, ePar = 286261520, pPar = 0.00638710844214
+ePar = 28.0927585117, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 17826064, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0874848549, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 5, ePar = 1048848, pPar = 0.0290684401989
+ePar = 1048848new_ePar = 269484304
+
+Entering into ED!
+i = 8, j = 7, ePar = 269484304, pPar = 0.00723872290109
+ePar = 28.0056260054, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 5, ePar = 1048848, pPar = 0.0290684401989
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0003741857, pPar = 0.00820388595457
+
+Entering into ED!
+i = 6, j = 2, ePar = 272, pPar = 0.2197265625
+ePar = 272new_ePar = 16777488
+
+Entering into ED!
+i = 7, j = 6, ePar = 16777488, pPar = 0.0154426088557
+ePar = 16777488new_ePar = 285212944
+
+Entering into ED!
+i = 8, j = 7, ePar = 285212944, pPar = 0.00723872290109
+ePar = 28.0874642171, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 16777488, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0000233895, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 2, ePar = 272, pPar = 0.2197265625
+ePar = 272new_ePar = 268435728
+
+Entering into ED!
+i = 8, j = 7, ePar = 268435728, pPar = 0.00820388595457
+ePar = 28.0000014619, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 2, ePar = 272, pPar = 0.2197265625
+enter into compute_ER! start = 7, end = 2
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52587890625e-05, v_part2 = 0, v_part3 = 0.0796365737915, v_part4 = 0
+
+i = 5, d[i] = -1
+i = 5
+v_part1 = 9.53674316406e-07, v_part2 = 0, v_part3 = 0.0423140823841, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 0.0796518325806 0.0423150360584 
+error rate ER = 0.957684963942
+ePar = 8.08746284125, pPar = 0.00929773741518
+
+Entering into ED!
+i = 3, j = 1, ePar = 16, pPar = 0.46875
+ePar = 16new_ePar = 4112
+
+Entering into ED!
+i = 4, j = 3, ePar = 4112, pPar = 0.116729736328
+ePar = 4112new_ePar = 69648
+
+Entering into ED!
+i = 5, j = 4, ePar = 69648, pPar = 0.0547170639038
+ePar = 69648new_ePar = 1118224
+
+Entering into ED!
+i = 6, j = 5, ePar = 1118224, pPar = 0.0256486237049
+ePar = 1118224new_ePar = 17895440
+
+Entering into ED!
+i = 7, j = 6, ePar = 17895440, pPar = 0.0120227923617
+ePar = 17895440new_ePar = 286330896
+
+Entering into ED!
+i = 8, j = 7, ePar = 286330896, pPar = 0.00563568391954
+ePar = 28.0931081091, pPar = 0.00563568391954
+
+Entering into ED!
+i = 8, j = 6, ePar = 17895440, pPar = 0.0120227923617
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0930886803, pPar = 0.00638710844214
+
+Entering into ED!
+i = 7, j = 5, ePar = 1118224, pPar = 0.0256486237049
+ePar = 1118224new_ePar = 269553680
+
+Entering into ED!
+i = 8, j = 7, ePar = 269553680, pPar = 0.00638710844214
+ePar = 28.0059973648, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 5, ePar = 1118224, pPar = 0.0256486237049
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0927777837, pPar = 0.00723872290109
+
+Entering into ED!
+i = 6, j = 4, ePar = 69648, pPar = 0.0547170639038
+ePar = 69648new_ePar = 16846864
+
+Entering into ED!
+i = 7, j = 6, ePar = 16846864, pPar = 0.0136258313432
+ePar = 16846864new_ePar = 285282320
+
+Entering into ED!
+i = 8, j = 7, ePar = 285282320, pPar = 0.00638710844214
+ePar = 28.0878150996, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 16846864, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0059767267, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 4, ePar = 69648, pPar = 0.0547170639038
+ePar = 69648new_ePar = 268505104
+
+Entering into ED!
+i = 8, j = 7, ePar = 268505104, pPar = 0.00723872290109
+ePar = 28.0003742717, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 4, ePar = 69648, pPar = 0.0547170639038
+enter into compute_ER! start = 7, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 
+error rate ER = 0.850067138672
+ePar = 16.0877943048, pPar = 0.00820388595457
+
+Entering into ED!
+i = 5, j = 3, ePar = 4112, pPar = 0.116729736328
+ePar = 4112new_ePar = 1052688
+
+Entering into ED!
+i = 6, j = 5, ePar = 1052688, pPar = 0.0290684401989
+ePar = 1052688new_ePar = 17829904
+
+Entering into ED!
+i = 7, j = 6, ePar = 17829904, pPar = 0.0136258313432
+ePar = 17829904new_ePar = 286265360
+
+Entering into ED!
+i = 8, j = 7, ePar = 286265360, pPar = 0.00638710844214
+ePar = 28.0927778644, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 17829904, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0877955994, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 5, ePar = 1052688, pPar = 0.0290684401989
+ePar = 1052688new_ePar = 269488144
+
+Entering into ED!
+i = 8, j = 7, ePar = 269488144, pPar = 0.00723872290109
+ePar = 28.0056465628, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 5, ePar = 1052688, pPar = 0.0290684401989
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0056464771, pPar = 0.00820388595457
+
+Entering into ED!
+i = 6, j = 3, ePar = 4112, pPar = 0.116729736328
+ePar = 4112new_ePar = 16781328
+
+Entering into ED!
+i = 7, j = 6, ePar = 16781328, pPar = 0.0154426088557
+ePar = 16781328new_ePar = 285216784
+
+Entering into ED!
+i = 8, j = 7, ePar = 285216784, pPar = 0.00723872290109
+ePar = 28.0874836409, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 16781328, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.000353553, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 3, ePar = 4112, pPar = 0.116729736328
+ePar = 4112new_ePar = 268439568
+
+Entering into ED!
+i = 8, j = 7, ePar = 268439568, pPar = 0.00820388595457
+ePar = 28.0000220996, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 3, ePar = 4112, pPar = 0.116729736328
+enter into compute_ER! start = 7, end = 3
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52587890625e-05, v_part2 = 0, v_part3 = 0.0796365737915, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 0.0796518325806 
+error rate ER = 0.920348167419
+ePar = 12.0056245492, pPar = 0.00929773741518
+
+Entering into ED!
+i = 4, j = 1, ePar = 16, pPar = 0.46875
+ePar = 16new_ePar = 65552
+
+Entering into ED!
+i = 5, j = 4, ePar = 65552, pPar = 0.0620126724243
+ePar = 65552new_ePar = 1114128
+
+Entering into ED!
+i = 6, j = 5, ePar = 1114128, pPar = 0.0290684401989
+ePar = 1114128new_ePar = 17891344
+
+Entering into ED!
+i = 7, j = 6, ePar = 17891344, pPar = 0.0136258313432
+ePar = 17891344new_ePar = 286326800
+
+Entering into ED!
+i = 8, j = 7, ePar = 286326800, pPar = 0.00638710844214
+ePar = 28.0930874711, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 17891344, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0927584311, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 5, ePar = 1114128, pPar = 0.0290684401989
+ePar = 1114128new_ePar = 269549584
+
+Entering into ED!
+i = 8, j = 7, ePar = 269549584, pPar = 0.00723872290109
+ePar = 28.0059754421, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 5, ePar = 1114128, pPar = 0.0290684401989
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.08748356, pPar = 0.00820388595457
+
+Entering into ED!
+i = 6, j = 4, ePar = 65552, pPar = 0.0620126724243
+ePar = 65552new_ePar = 16842768
+
+Entering into ED!
+i = 7, j = 6, ePar = 16842768, pPar = 0.0154426088557
+ePar = 16842768new_ePar = 285278224
+
+Entering into ED!
+i = 8, j = 7, ePar = 285278224, pPar = 0.00723872290109
+ePar = 28.0877943857, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 16842768, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0056259197, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 4, ePar = 65552, pPar = 0.0620126724243
+ePar = 65552new_ePar = 268501008
+
+Entering into ED!
+i = 8, j = 7, ePar = 268501008, pPar = 0.00820388595457
+ePar = 28.0003522635, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 4, ePar = 65552, pPar = 0.0620126724243
+enter into compute_ER! start = 7, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 
+error rate ER = 0.850067138672
+ePar = 16.0003521775, pPar = 0.00929773741518
+
+Entering into ED!
+i = 5, j = 1, ePar = 16, pPar = 0.46875
+ePar = 16new_ePar = 1048592
+
+Entering into ED!
+i = 6, j = 5, ePar = 1048592, pPar = 0.0329442322254
+ePar = 1048592new_ePar = 17825808
+
+Entering into ED!
+i = 7, j = 6, ePar = 17825808, pPar = 0.0154426088557
+ePar = 17825808new_ePar = 286261264
+
+Entering into ED!
+i = 8, j = 7, ePar = 286261264, pPar = 0.00723872290109
+ePar = 28.0927572216, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 17825808, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0874641362, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 5, ePar = 1048592, pPar = 0.0329442322254
+ePar = 1048592new_ePar = 269484048
+
+Entering into ED!
+i = 8, j = 7, ePar = 269484048, pPar = 0.00820388595457
+ePar = 28.0056246349, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 5, ePar = 1048592, pPar = 0.0329442322254
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0000220136, pPar = 0.00929773741518
+
+Entering into ED!
+i = 6, j = 1, ePar = 16, pPar = 0.46875
+ePar = 16new_ePar = 16777232
+
+Entering into ED!
+i = 7, j = 6, ePar = 16777232, pPar = 0.0175016233698
+ePar = 16777232new_ePar = 285212688
+
+Entering into ED!
+i = 8, j = 7, ePar = 285212688, pPar = 0.00820388595457
+ePar = 28.0874629222, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 6, ePar = 16777232, pPar = 0.0175016233698
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0000013759, pPar = 0.00929773741518
+
+Entering into ED!
+i = 7, j = 1, ePar = 16, pPar = 0.46875
+ePar = 16new_ePar = 268435472
+
+Entering into ED!
+i = 8, j = 7, ePar = 268435472, pPar = 0.00929773741518
+ePar = 28.000000086, pPar = 0.00929773741518
+
+Entering into ED!
+i = 8, j = 1, ePar = 16, pPar = 0.46875
+enter into compute_ER! start = 7, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52587890625e-05, v_part2 = 0, v_part3 = 0.0796365737915, v_part4 = 0
+
+i = 5, d[i] = -1
+i = 5
+v_part1 = 9.53674316406e-07, v_part2 = 0, v_part3 = 0.0423140823841, v_part4 = 0
+
+i = 6, d[i] = -1
+i = 6
+v_part1 = 5.96046447754e-08, v_part2 = 0, v_part3 = 0.0224798033014, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 0.0796518325806 0.0423150360584 0.022479862906 
+error rate ER = 0.977520137094
+ePar = 4, pPar = 0.0105374357372
+
+Entering into ED!
+i = 2, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 256
+
+Entering into ED!
+i = 3, j = 2, ePar = 256, pPar = 0.2490234375
+ePar = 256new_ePar = 4352
+
+Entering into ED!
+i = 4, j = 3, ePar = 4352, pPar = 0.116729736328
+ePar = 4352new_ePar = 69888
+
+Entering into ED!
+i = 5, j = 4, ePar = 69888, pPar = 0.0547170639038
+ePar = 69888new_ePar = 1118464
+
+Entering into ED!
+i = 6, j = 5, ePar = 1118464, pPar = 0.0256486237049
+ePar = 1118464new_ePar = 17895680
+
+Entering into ED!
+i = 7, j = 6, ePar = 17895680, pPar = 0.0120227923617
+ePar = 17895680new_ePar = 286331136
+
+Entering into ED!
+i = 8, j = 7, ePar = 286331136, pPar = 0.00563568391954
+ePar = 28.0931093184, pPar = 0.00563568391954
+
+Entering into ED!
+i = 8, j = 6, ePar = 17895680, pPar = 0.0120227923617
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0931080285, pPar = 0.00638710844214
+
+Entering into ED!
+i = 7, j = 5, ePar = 1118464, pPar = 0.0256486237049
+ePar = 1118464new_ePar = 269553920
+
+Entering into ED!
+i = 8, j = 7, ePar = 269553920, pPar = 0.00638710844214
+ePar = 28.0059986493, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 5, ePar = 1118464, pPar = 0.0256486237049
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0930873904, pPar = 0.00723872290109
+
+Entering into ED!
+i = 6, j = 4, ePar = 69888, pPar = 0.0547170639038
+ePar = 69888new_ePar = 16847104
+
+Entering into ED!
+i = 7, j = 6, ePar = 16847104, pPar = 0.0136258313432
+ePar = 16847104new_ePar = 285282560
+
+Entering into ED!
+i = 8, j = 7, ePar = 285282560, pPar = 0.00638710844214
+ePar = 28.0878163133, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 16847104, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0059972791, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 4, ePar = 69888, pPar = 0.0547170639038
+ePar = 69888new_ePar = 268505344
+
+Entering into ED!
+i = 8, j = 7, ePar = 268505344, pPar = 0.00723872290109
+ePar = 28.0003755612, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 4, ePar = 69888, pPar = 0.0547170639038
+enter into compute_ER! start = 7, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 
+error rate ER = 0.850067138672
+ePar = 16.0927571409, pPar = 0.00820388595457
+
+Entering into ED!
+i = 5, j = 3, ePar = 4352, pPar = 0.116729736328
+ePar = 4352new_ePar = 1052928
+
+Entering into ED!
+i = 6, j = 5, ePar = 1052928, pPar = 0.0290684401989
+ePar = 1052928new_ePar = 17830144
+
+Entering into ED!
+i = 7, j = 6, ePar = 17830144, pPar = 0.0136258313432
+ePar = 17830144new_ePar = 286265600
+
+Entering into ED!
+i = 8, j = 7, ePar = 286265600, pPar = 0.00638710844214
+ePar = 28.0927790739, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 17830144, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0878150187, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 5, ePar = 1052928, pPar = 0.0290684401989
+ePar = 1052928new_ePar = 269488384
+
+Entering into ED!
+i = 8, j = 7, ePar = 269488384, pPar = 0.00723872290109
+ePar = 28.0056478476, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 5, ePar = 1052928, pPar = 0.0290684401989
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0059753565, pPar = 0.00820388595457
+
+Entering into ED!
+i = 6, j = 3, ePar = 4352, pPar = 0.116729736328
+ePar = 4352new_ePar = 16781568
+
+Entering into ED!
+i = 7, j = 6, ePar = 16781568, pPar = 0.0154426088557
+ePar = 16781568new_ePar = 285217024
+
+Entering into ED!
+i = 8, j = 7, ePar = 285217024, pPar = 0.00723872290109
+ePar = 28.0874848549, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 16781568, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0003741857, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 3, ePar = 4352, pPar = 0.116729736328
+ePar = 4352new_ePar = 268439808
+
+Entering into ED!
+i = 8, j = 7, ePar = 268439808, pPar = 0.00820388595457
+ePar = 28.0000233895, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 3, ePar = 4352, pPar = 0.116729736328
+enter into compute_ER! start = 7, end = 3
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52587890625e-05, v_part2 = 0, v_part3 = 0.0796365737915, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 0.0796518325806 
+error rate ER = 0.920348167419
+ePar = 12.0874628413, pPar = 0.00929773741518
+
+Entering into ED!
+i = 4, j = 2, ePar = 256, pPar = 0.2490234375
+ePar = 256new_ePar = 65792
+
+Entering into ED!
+i = 5, j = 4, ePar = 65792, pPar = 0.0620126724243
+ePar = 65792new_ePar = 1114368
+
+Entering into ED!
+i = 6, j = 5, ePar = 1114368, pPar = 0.0290684401989
+ePar = 1114368new_ePar = 17891584
+
+Entering into ED!
+i = 7, j = 6, ePar = 17891584, pPar = 0.0136258313432
+ePar = 17891584new_ePar = 286327040
+
+Entering into ED!
+i = 8, j = 7, ePar = 286327040, pPar = 0.00638710844214
+ePar = 28.0930886803, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 17891584, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0927777837, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 5, ePar = 1114368, pPar = 0.0290684401989
+ePar = 1114368new_ePar = 269549824
+
+Entering into ED!
+i = 8, j = 7, ePar = 269549824, pPar = 0.00723872290109
+ePar = 28.0059767267, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 5, ePar = 1114368, pPar = 0.0290684401989
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0877943048, pPar = 0.00820388595457
+
+Entering into ED!
+i = 6, j = 4, ePar = 65792, pPar = 0.0620126724243
+ePar = 65792new_ePar = 16843008
+
+Entering into ED!
+i = 7, j = 6, ePar = 16843008, pPar = 0.0154426088557
+ePar = 16843008new_ePar = 285278464
+
+Entering into ED!
+i = 8, j = 7, ePar = 285278464, pPar = 0.00723872290109
+ePar = 28.0877955994, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 16843008, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0056464771, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 4, ePar = 65792, pPar = 0.0620126724243
+ePar = 65792new_ePar = 268501248
+
+Entering into ED!
+i = 8, j = 7, ePar = 268501248, pPar = 0.00820388595457
+ePar = 28.000353553, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 4, ePar = 65792, pPar = 0.0620126724243
+enter into compute_ER! start = 7, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 
+error rate ER = 0.850067138672
+ePar = 16.0056245492, pPar = 0.00929773741518
+
+Entering into ED!
+i = 5, j = 2, ePar = 256, pPar = 0.2490234375
+ePar = 256new_ePar = 1048832
+
+Entering into ED!
+i = 6, j = 5, ePar = 1048832, pPar = 0.0329442322254
+ePar = 1048832new_ePar = 17826048
+
+Entering into ED!
+i = 7, j = 6, ePar = 17826048, pPar = 0.0154426088557
+ePar = 17826048new_ePar = 286261504
+
+Entering into ED!
+i = 8, j = 7, ePar = 286261504, pPar = 0.00723872290109
+ePar = 28.0927584311, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 17826048, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.08748356, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 5, ePar = 1048832, pPar = 0.0329442322254
+ePar = 1048832new_ePar = 269484288
+
+Entering into ED!
+i = 8, j = 7, ePar = 269484288, pPar = 0.00820388595457
+ePar = 28.0056259197, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 5, ePar = 1048832, pPar = 0.0329442322254
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0003521775, pPar = 0.00929773741518
+
+Entering into ED!
+i = 6, j = 2, ePar = 256, pPar = 0.2490234375
+ePar = 256new_ePar = 16777472
+
+Entering into ED!
+i = 7, j = 6, ePar = 16777472, pPar = 0.0175016233698
+ePar = 16777472new_ePar = 285212928
+
+Entering into ED!
+i = 8, j = 7, ePar = 285212928, pPar = 0.00820388595457
+ePar = 28.0874641362, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 6, ePar = 16777472, pPar = 0.0175016233698
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0000220136, pPar = 0.00929773741518
+
+Entering into ED!
+i = 7, j = 2, ePar = 256, pPar = 0.2490234375
+ePar = 256new_ePar = 268435712
+
+Entering into ED!
+i = 8, j = 7, ePar = 268435712, pPar = 0.00929773741518
+ePar = 28.0000013759, pPar = 0.00929773741518
+
+Entering into ED!
+i = 8, j = 2, ePar = 256, pPar = 0.2490234375
+enter into compute_ER! start = 7, end = 2
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52587890625e-05, v_part2 = 0, v_part3 = 0.0796365737915, v_part4 = 0
+
+i = 5, d[i] = -1
+i = 5
+v_part1 = 9.53674316406e-07, v_part2 = 0, v_part3 = 0.0423140823841, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 0.0796518325806 0.0423150360584 
+error rate ER = 0.957684963942
+ePar = 8, pPar = 0.0105374357372
+
+Entering into ED!
+i = 3, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 4096
+
+Entering into ED!
+i = 4, j = 3, ePar = 4096, pPar = 0.132293701172
+ePar = 4096new_ePar = 69632
+
+Entering into ED!
+i = 5, j = 4, ePar = 69632, pPar = 0.0620126724243
+ePar = 69632new_ePar = 1118208
+
+Entering into ED!
+i = 6, j = 5, ePar = 1118208, pPar = 0.0290684401989
+ePar = 1118208new_ePar = 17895424
+
+Entering into ED!
+i = 7, j = 6, ePar = 17895424, pPar = 0.0136258313432
+ePar = 17895424new_ePar = 286330880
+
+Entering into ED!
+i = 8, j = 7, ePar = 286330880, pPar = 0.00638710844214
+ePar = 28.0931080285, pPar = 0.00638710844214
+
+Entering into ED!
+i = 8, j = 6, ePar = 17895424, pPar = 0.0136258313432
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0930873904, pPar = 0.00723872290109
+
+Entering into ED!
+i = 7, j = 5, ePar = 1118208, pPar = 0.0290684401989
+ePar = 1118208new_ePar = 269553664
+
+Entering into ED!
+i = 8, j = 7, ePar = 269553664, pPar = 0.00723872290109
+ePar = 28.0059972791, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 5, ePar = 1118208, pPar = 0.0290684401989
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0927571409, pPar = 0.00820388595457
+
+Entering into ED!
+i = 6, j = 4, ePar = 69632, pPar = 0.0620126724243
+ePar = 69632new_ePar = 16846848
+
+Entering into ED!
+i = 7, j = 6, ePar = 16846848, pPar = 0.0154426088557
+ePar = 16846848new_ePar = 285282304
+
+Entering into ED!
+i = 8, j = 7, ePar = 285282304, pPar = 0.00723872290109
+ePar = 28.0878150187, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 16846848, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0059753565, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 4, ePar = 69632, pPar = 0.0620126724243
+ePar = 69632new_ePar = 268505088
+
+Entering into ED!
+i = 8, j = 7, ePar = 268505088, pPar = 0.00820388595457
+ePar = 28.0003741857, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 4, ePar = 69632, pPar = 0.0620126724243
+enter into compute_ER! start = 7, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 
+error rate ER = 0.850067138672
+ePar = 16.0874628413, pPar = 0.00929773741518
+
+Entering into ED!
+i = 5, j = 3, ePar = 4096, pPar = 0.132293701172
+ePar = 4096new_ePar = 1052672
+
+Entering into ED!
+i = 6, j = 5, ePar = 1052672, pPar = 0.0329442322254
+ePar = 1052672new_ePar = 17829888
+
+Entering into ED!
+i = 7, j = 6, ePar = 17829888, pPar = 0.0154426088557
+ePar = 17829888new_ePar = 286265344
+
+Entering into ED!
+i = 8, j = 7, ePar = 286265344, pPar = 0.00723872290109
+ePar = 28.0927777837, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 17829888, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0877943048, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 5, ePar = 1052672, pPar = 0.0329442322254
+ePar = 1052672new_ePar = 269488128
+
+Entering into ED!
+i = 8, j = 7, ePar = 269488128, pPar = 0.00820388595457
+ePar = 28.0056464771, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 5, ePar = 1052672, pPar = 0.0329442322254
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0056245492, pPar = 0.00929773741518
+
+Entering into ED!
+i = 6, j = 3, ePar = 4096, pPar = 0.132293701172
+ePar = 4096new_ePar = 16781312
+
+Entering into ED!
+i = 7, j = 6, ePar = 16781312, pPar = 0.0175016233698
+ePar = 16781312new_ePar = 285216768
+
+Entering into ED!
+i = 8, j = 7, ePar = 285216768, pPar = 0.00820388595457
+ePar = 28.08748356, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 6, ePar = 16781312, pPar = 0.0175016233698
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0003521775, pPar = 0.00929773741518
+
+Entering into ED!
+i = 7, j = 3, ePar = 4096, pPar = 0.132293701172
+ePar = 4096new_ePar = 268439552
+
+Entering into ED!
+i = 8, j = 7, ePar = 268439552, pPar = 0.00929773741518
+ePar = 28.0000220136, pPar = 0.00929773741518
+
+Entering into ED!
+i = 8, j = 3, ePar = 4096, pPar = 0.132293701172
+enter into compute_ER! start = 7, end = 3
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52587890625e-05, v_part2 = 0, v_part3 = 0.0796365737915, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 0.0796518325806 
+error rate ER = 0.920348167419
+ePar = 12, pPar = 0.0105374357372
+
+Entering into ED!
+i = 4, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 65536
+
+Entering into ED!
+i = 5, j = 4, ePar = 65536, pPar = 0.0702810287476
+ePar = 65536new_ePar = 1114112
+
+Entering into ED!
+i = 6, j = 5, ePar = 1114112, pPar = 0.0329442322254
+ePar = 1114112new_ePar = 17891328
+
+Entering into ED!
+i = 7, j = 6, ePar = 17891328, pPar = 0.0154426088557
+ePar = 17891328new_ePar = 286326784
+
+Entering into ED!
+i = 8, j = 7, ePar = 286326784, pPar = 0.00723872290109
+ePar = 28.0930873904, pPar = 0.00723872290109
+
+Entering into ED!
+i = 8, j = 6, ePar = 17891328, pPar = 0.0154426088557
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0927571409, pPar = 0.00820388595457
+
+Entering into ED!
+i = 7, j = 5, ePar = 1114112, pPar = 0.0329442322254
+ePar = 1114112new_ePar = 269549568
+
+Entering into ED!
+i = 8, j = 7, ePar = 269549568, pPar = 0.00820388595457
+ePar = 28.0059753565, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 5, ePar = 1114112, pPar = 0.0329442322254
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20.0874628413, pPar = 0.00929773741518
+
+Entering into ED!
+i = 6, j = 4, ePar = 65536, pPar = 0.0702810287476
+ePar = 65536new_ePar = 16842752
+
+Entering into ED!
+i = 7, j = 6, ePar = 16842752, pPar = 0.0175016233698
+ePar = 16842752new_ePar = 285278208
+
+Entering into ED!
+i = 8, j = 7, ePar = 285278208, pPar = 0.00820388595457
+ePar = 28.0877943048, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 6, ePar = 16842752, pPar = 0.0175016233698
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0056245492, pPar = 0.00929773741518
+
+Entering into ED!
+i = 7, j = 4, ePar = 65536, pPar = 0.0702810287476
+ePar = 65536new_ePar = 268500992
+
+Entering into ED!
+i = 8, j = 7, ePar = 268500992, pPar = 0.00929773741518
+ePar = 28.0003521775, pPar = 0.00929773741518
+
+Entering into ED!
+i = 8, j = 4, ePar = 65536, pPar = 0.0702810287476
+enter into compute_ER! start = 7, end = 4
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 
+error rate ER = 0.850067138672
+ePar = 16, pPar = 0.0105374357372
+
+Entering into ED!
+i = 5, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 1048576
+
+Entering into ED!
+i = 6, j = 5, ePar = 1048576, pPar = 0.0373367965221
+ePar = 1048576new_ePar = 17825792
+
+Entering into ED!
+i = 7, j = 6, ePar = 17825792, pPar = 0.0175016233698
+ePar = 17825792new_ePar = 286261248
+
+Entering into ED!
+i = 8, j = 7, ePar = 286261248, pPar = 0.00820388595457
+ePar = 28.0927571409, pPar = 0.00820388595457
+
+Entering into ED!
+i = 8, j = 6, ePar = 17825792, pPar = 0.0175016233698
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24.0874628413, pPar = 0.00929773741518
+
+Entering into ED!
+i = 7, j = 5, ePar = 1048576, pPar = 0.0373367965221
+ePar = 1048576new_ePar = 269484032
+
+Entering into ED!
+i = 8, j = 7, ePar = 269484032, pPar = 0.00929773741518
+ePar = 28.0056245492, pPar = 0.00929773741518
+
+Entering into ED!
+i = 8, j = 5, ePar = 1048576, pPar = 0.0373367965221
+enter into compute_ER! start = 7, end = 5
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 
+error rate ER = 0.7177734375
+ePar = 20, pPar = 0.0105374357372
+
+Entering into ED!
+i = 6, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 16777216
+
+Entering into ED!
+i = 7, j = 6, ePar = 16777216, pPar = 0.0198351731524
+ePar = 16777216new_ePar = 285212672
+
+Entering into ED!
+i = 8, j = 7, ePar = 285212672, pPar = 0.00929773741518
+ePar = 28.0874628413, pPar = 0.00929773741518
+
+Entering into ED!
+i = 8, j = 6, ePar = 16777216, pPar = 0.0198351731524
+enter into compute_ER! start = 7, end = 6
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+values of d: 
+1 0.53125 
+error rate ER = 0.46875
+ePar = 24, pPar = 0.0105374357372
+
+Entering into ED!
+i = 7, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 268435456
+
+Entering into ED!
+i = 8, j = 7, ePar = 268435456, pPar = 0.0105374357372
+ePar = 28, pPar = 0.0105374357372
+
+Entering into ED!
+i = 8, j = 0, ePar = 0, pPar = 1
+enter into compute_ER! start = 7, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.46875, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.2783203125, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244140625, v_part2 = 0, v_part3 = 0.149688720703, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52587890625e-05, v_part2 = 0, v_part3 = 0.0796365737915, v_part4 = 0
+
+i = 5, d[i] = -1
+i = 5
+v_part1 = 9.53674316406e-07, v_part2 = 0, v_part3 = 0.0423140823841, v_part4 = 0
+
+i = 6, d[i] = -1
+i = 6
+v_part1 = 5.96046447754e-08, v_part2 = 0, v_part3 = 0.0224798033014, v_part4 = 0
+
+i = 7, d[i] = -1
+i = 7
+v_part1 = 3.72529029846e-09, v_part2 = 0, v_part3 = 0.0119424234435, v_part4 = 0
+values of d: 
+1 0.53125 0.2822265625 0.149932861328 0.0796518325806 0.0423150360584 0.022479862906 0.0119424271688 
+error rate ER = 0.988057572831
+ePar = -inf, pPar = 0.0119424271688
+runtime for ED: 0.007
+count = 255
+
+ed_prob_map: 
+MSE = 3.60287968847e+16
+
+
+ed_prob: 
+4: 0.0105374357372
+8: 0.0198351731524
+12: 0.0373367965221
+16: 0.0702810287476
+20: 0.132293701172
+24: 0.2490234375
+28: 0.46875
+
+4 8 12 16 20 24 28 
+0.0105374357372 0.0198351731524 0.0373367965221 0.0702810287476 0.132293701172 0.2490234375 0.46875 
+total runtime: 0.011
+total time: 10948

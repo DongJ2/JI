@@ -1,0 +1,112 @@
+m = 8
+
+i = 1
+rem = 0
+
+i = 2
+rem = 0
+
+i = 3
+rem = 0
+
+i = 4
+rem = 0
+
+i = 5
+rem = 0
+
+i = 6
+rem = 0
+
+i = 7
+rem = 0
+R: 0 4 4 4 4 4 4 4 
+t: 0 1 1 1 1 1 1 1 
+KK: 0 0 0 0 0 0 0 0 
+pp, pg, pk: 
+pp[0] = 0.0625
+pg[0] = 0.46875
+pk[0] = 0.46875
+pp[1] = 0.0625
+pg[1] = 0.46875
+pk[1] = 0.46875
+pp[2] = 0.0625
+pg[2] = 0.46875
+pk[2] = 0.46875
+pp[3] = 0.0625
+pg[3] = 0.46875
+pk[3] = 0.46875
+pp[4] = 0.0625
+pg[4] = 0.46875
+pk[4] = 0.46875
+pp[5] = 0.0625
+pg[5] = 0.46875
+pk[5] = 0.46875
+pp[6] = 0.0625
+pg[6] = 0.46875
+pk[6] = 0.46875
+pp[7] = 0.0625
+pg[7] = 0.46875
+pk[7] = 0.46875
+
+$SUB_lb: 
+SUB_lb[0] = 0
+SUB_lb[1] = 4
+SUB_lb[2] = 8
+SUB_lb[3] = 12
+SUB_lb[4] = 16
+SUB_lb[5] = 20
+SUB_lb[6] = 24
+SUB_lb[7] = 28
+CG_lb[0] = 0
+CG_lb_ind[0] = -1
+CG_lb[1] = 0
+CG_lb_ind[1] = -1
+CG_lb[2] = 4
+CG_lb_ind[2] = 0
+CG_lb[3] = 8
+CG_lb_ind[3] = 1
+CG_lb[4] = 12
+CG_lb_ind[4] = 2
+CG_lb[5] = 16
+CG_lb_ind[5] = 3
+CG_lb[6] = 20
+CG_lb_ind[6] = 4
+CG_lb[7] = 24
+CG_lb_ind[7] = 5
+**********************************************
+start computing error rate!
+enter into compute_ER! start = 7, end = 0
+i = 1
+R:4, sub_sum: 4
+
+i = 1, d[i] = 1
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.00390625, v_part2 = 0, v_part3 = 0.498047, v_part4 = 0.46875
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.000244141, v_part2 = 0, v_part3 = 0.486145, v_part4 = 0.455017
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 1.52588e-05, v_part2 = 0, v_part3 = 0.471668, v_part4 = 0.441284
+
+i = 5, d[i] = -1
+i = 5
+v_part1 = 9.53674e-07, v_part2 = 0, v_part3 = 0.457433, v_part4 = 0.427954
+
+i = 6, d[i] = -1
+i = 6
+v_part1 = 5.96046e-08, v_part2 = 0, v_part3 = 0.443615, v_part4 = 0.415025
+
+i = 7, d[i] = -1
+i = 7
+v_part1 = 3.72529e-09, v_part2 = 0, v_part3 = 0.430214, v_part4 = 0.402488
+values of d: 
+1 1 0.970703 0.941406 0.912968 0.885387 0.85864 0.832701 
+error rate ER = 0.167299
+total runtime: 0.001
+total time: 881

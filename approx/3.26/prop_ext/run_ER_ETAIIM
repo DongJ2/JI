@@ -1,0 +1,6 @@
+#./main 16 4 4 1 3 > ./out/2017.4.20/ER/ETAIIM/gau/n16s4r4.out
+./main 20 4 4 1 3 > ./out/2017.4.20/ER/ETAIIM/gau/n20s4r4.out
+./main 24 4 4 1 3 > ./out/2017.4.20/ER/ETAIIM/gau/n24s4r4.out
+./main 24 3 3 1 3 > ./out/2017.4.20/ER/ETAIIM/gau/n24s3r3.out
+#./main 24 3 3 1 3 > ./out/2017.4.20/ER/ETAIIM/gau/n24s3r3.out
+#./main 24 3 3 1 3 > ./out/2017.4.20/ER/ETAIIM/gau/n24s3r3.out

@@ -1,0 +1,441 @@
+m = 5
+
+i = 1
+rem = -2
+j = 0, rem = 1
+
+i = 2
+rem = -1
+j = 1, rem = 1
+
+i = 3
+rem = -1
+j = 2, rem = 1
+
+i = 4
+rem = 0
+R: 0 1 1 1 2 
+t: 0 0 0 0 1 
+KK: 0 1 1 1 0 
+pp, pg, pk: 
+pp[0] = 0.125
+pg[0] = 0.4375
+pk[0] = 0.4375
+pp[1] = 0.25
+pg[1] = 0.375
+pk[1] = 0.375
+pp[2] = 0.25
+pg[2] = 0.375
+pk[2] = 0.375
+pp[3] = 0.25
+pg[3] = 0.375
+pk[3] = 0.375
+pp[4] = 0.25
+pg[4] = 0.375
+pk[4] = 0.375
+
+$SUB_lb: 
+SUB_lb[0] = 0
+SUB_lb[1] = 3
+SUB_lb[2] = 5
+SUB_lb[3] = 7
+SUB_lb[4] = 9
+CG_lb[0] = 0
+CG_lb_ind[0] = -1
+CG_lb[1] = 2
+CG_lb_ind[1] = 0
+CG_lb[2] = 4
+CG_lb_ind[2] = 1
+CG_lb[3] = 6
+CG_lb_ind[3] = 2
+CG_lb[4] = 7
+CG_lb_ind[4] = 2
+**********************************************
+start computing error distribution!
+
+i = 1, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 0.5
+pgr = 0.375
+start_block = 0, j = 0
+e[i][j] = 0.1875
+&consider block i-1:
+e[i][j] = 0.1875
+
+i = 2, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 0.5
+pgr = 0.25
+start_block = 1, j = 0
+enter into compute_ER! start = 1, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.125, v_part2 = 0.25, v_part3 = 0.4375, v_part4 = 0
+values of d: 
+1 0.8125 
+error rate ER = 0.1875
+e[i][j] = 0.101562
+&consider block i-1:
+e[i][j] = 0.164062
+
+i = 3, j = 0
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 0.5
+pgr = 0.25
+start_block = 2, j = 0
+enter into compute_ER! start = 2, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.125, v_part2 = 0.25, v_part3 = 0.4375, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.03125, v_part2 = 0.203125, v_part3 = 0.414062, v_part4 = 0
+values of d: 
+1 0.8125 0.648438 
+error rate ER = 0.351562
+e[i][j] = 0.0810547
+&consider block i-1:
+enter into compute_ER! start = 1, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.125, v_part2 = 0.25, v_part3 = 0.4375, v_part4 = 0
+values of d: 
+1 0.8125 
+error rate ER = 0.1875
+e[i][j] = 0.131836
+
+i = 4, j = 0
+case2: equal!
+enter into compute_ER! start = 2, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.125, v_part2 = 0.25, v_part3 = 0.4375, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.03125, v_part2 = 0.203125, v_part3 = 0.414062, v_part4 = 0
+values of d: 
+1 0.8125 0.648438 
+error rate ER = 0.351562
+e[i][j] = 0.0405273
+
+i = 2, j = 1
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 0.5
+pgr = 0.25
+start_block = 1, j = 1
+e[i][j] = 0.125
+&consider block i-1:
+e[i][j] = 0.125
+
+i = 3, j = 1
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 0.5
+pgr = 0.25
+start_block = 2, j = 1
+enter into compute_ER! start = 2, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.25, v_part2 = 0.25, v_part3 = 0.375, v_part4 = 0
+values of d: 
+1 0.875 
+error rate ER = 0.125
+e[i][j] = 0.109375
+&consider block i-1:
+e[i][j] = 0.171875
+
+i = 4, j = 1
+case2: equal!
+enter into compute_ER! start = 2, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.25, v_part2 = 0.25, v_part3 = 0.375, v_part4 = 0
+values of d: 
+1 0.875 
+error rate ER = 0.125
+e[i][j] = 0.0546875
+
+i = 3, j = 2
+case3: unequal!
+&consider block i:
+e[i][j] = 1
+ppl = 0.5
+pgr = 0.25
+start_block = 2, j = 2
+e[i][j] = 0.125
+&consider block i-1:
+e[i][j] = 0.125
+
+i = 4, j = 2
+case2: equal!
+e[i][j] = 0.0625
+
+i = 4, j = 3
+case1: t[i] >= i - j
+runtime for the for loop 0
+values of e: 
+e[1][0] = 0.1875
+e[2][0] = 0.164062
+e[3][0] = 0.131836
+e[4][0] = 0.0405273
+e[2][1] = 0.125
+e[3][1] = 0.171875
+e[4][1] = 0.0546875
+e[3][2] = 0.125
+e[4][2] = 0.0625
+e[4][3] = 0
+count_loop = 10
+
+Entering into ED!
+i = 1, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 8
+
+Entering into ED!
+i = 2, j = 1, ePar = 8, pPar = 0.1875
+ePar = 8new_ePar = 40
+
+Entering into ED!
+i = 3, j = 2, ePar = 40, pPar = 0.0234375
+ePar = 40new_ePar = 168
+
+Entering into ED!
+i = 5, j = 3, ePar = 168, pPar = 0.00292969
+enter into compute_ER! start = 4, end = 3
+i = 1
+R:2, sub_sum: 2
+
+i = 1, d[i] = 1
+values of d: 
+1 1 
+error rate ER = 0
+
+return from ED: 
+ePar = 168, pPar = 0.0029296875
+
+Entering into ED!
+i = 4, j = 2, ePar = 40, pPar = 0.0234375
+ePar = 40new_ePar = 552
+
+Entering into ED!
+i = 5, j = 4, ePar = 552, pPar = 0.00146484375
+
+return from ED: 
+ePar = 552, pPar = 0.00146484375
+
+Entering into ED!
+i = 5, j = 2, ePar = 40, pPar = 0.0234375
+enter into compute_ER! start = 4, end = 2
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.25, v_part2 = 0.25, v_part3 = 0.375, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.421875, v_part4 = 0.328125
+values of d: 
+1 0.875 0.8125 
+error rate ER = 0.1875
+
+return from ED: 
+ePar = 40, pPar = 0.01904296875
+
+Entering into ED!
+i = 3, j = 1, ePar = 8, pPar = 0.1875
+ePar = 8new_ePar = 136
+
+Entering into ED!
+i = 5, j = 3, ePar = 136, pPar = 0.0322265625
+enter into compute_ER! start = 4, end = 3
+i = 1
+R:2, sub_sum: 2
+
+i = 1, d[i] = 1
+values of d: 
+1 1 
+error rate ER = 0
+
+return from ED: 
+ePar = 136, pPar = 0.0322265625
+
+Entering into ED!
+i = 4, j = 1, ePar = 8, pPar = 0.1875
+ePar = 8new_ePar = 520
+
+Entering into ED!
+i = 5, j = 4, ePar = 520, pPar = 0.01025390625
+
+return from ED: 
+ePar = 520, pPar = 0.01025390625
+
+Entering into ED!
+i = 5, j = 1, ePar = 8, pPar = 0.1875
+enter into compute_ER! start = 4, end = 1
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.25, v_part2 = 0.25, v_part3 = 0.375, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.0625, v_part2 = 0.21875, v_part3 = 0.421875, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.015625, v_part2 = 0, v_part3 = 0.369140625, v_part4 = 0.263671875
+values of d: 
+1 0.875 0.703125 0.6484375 
+error rate ER = 0.3515625
+
+return from ED: 
+ePar = 8, pPar = 0.12158203125
+
+Entering into ED!
+i = 2, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 32
+
+Entering into ED!
+i = 3, j = 2, ePar = 32, pPar = 0.1640625
+ePar = 32new_ePar = 160
+
+Entering into ED!
+i = 5, j = 3, ePar = 160, pPar = 0.0205078125
+enter into compute_ER! start = 4, end = 3
+i = 1
+R:2, sub_sum: 2
+
+i = 1, d[i] = 1
+values of d: 
+1 1 
+error rate ER = 0
+
+return from ED: 
+ePar = 160, pPar = 0.0205078125
+
+Entering into ED!
+i = 4, j = 2, ePar = 32, pPar = 0.1640625
+ePar = 32new_ePar = 544
+
+Entering into ED!
+i = 5, j = 4, ePar = 544, pPar = 0.01025390625
+
+return from ED: 
+ePar = 544, pPar = 0.01025390625
+
+Entering into ED!
+i = 5, j = 2, ePar = 32, pPar = 0.1640625
+enter into compute_ER! start = 4, end = 2
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.25, v_part2 = 0.25, v_part3 = 0.375, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.0625, v_part2 = 0, v_part3 = 0.421875, v_part4 = 0.328125
+values of d: 
+1 0.875 0.8125 
+error rate ER = 0.1875
+
+return from ED: 
+ePar = 32, pPar = 0.13330078125
+
+Entering into ED!
+i = 3, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 128
+
+Entering into ED!
+i = 5, j = 3, ePar = 128, pPar = 0.1318359375
+enter into compute_ER! start = 4, end = 3
+i = 1
+R:2, sub_sum: 2
+
+i = 1, d[i] = 1
+values of d: 
+1 1 
+error rate ER = 0
+
+return from ED: 
+ePar = 128, pPar = 0.1318359375
+
+Entering into ED!
+i = 4, j = 0, ePar = 0, pPar = 1
+ePar = 0new_ePar = 512
+
+Entering into ED!
+i = 5, j = 4, ePar = 512, pPar = 0.04052734375
+
+return from ED: 
+ePar = 512, pPar = 0.04052734375
+
+Entering into ED!
+i = 5, j = 0, ePar = 0, pPar = 1
+enter into compute_ER! start = 4, end = 0
+
+i = 1, d[i] = -1
+i = 1
+v_part1 = 0.125, v_part2 = 0.25, v_part3 = 0.4375, v_part4 = 0
+
+i = 2, d[i] = -1
+i = 2
+v_part1 = 0.03125, v_part2 = 0.203125, v_part3 = 0.4140625, v_part4 = 0
+
+i = 3, d[i] = -1
+i = 3
+v_part1 = 0.0078125, v_part2 = 0.162109375, v_part3 = 0.3466796875, v_part4 = 0
+
+i = 4, d[i] = -1
+i = 4
+v_part1 = 0.001953125, v_part2 = 0, v_part3 = 0.280395507812, v_part4 = 0.193725585938
+values of d: 
+1 0.8125 0.6484375 0.5166015625 0.47607421875 
+error rate ER = 0.52392578125
+
+return from ED: 
+ePar = 0, pPar = 0.47607421875
+runtime for ED: 0
+count = 23
+sum_prob = 0.52392578125
+
+ed_prob_map: 
+8: 0.12158203125
+32: 0.13330078125
+40: 0.01904296875
+128: 0.1318359375
+136: 0.0322265625
+160: 0.0205078125
+168: 0.0029296875
+512: 0.04052734375
+520: 0.01025390625
+544: 0.01025390625
+552: 0.00146484375
+MSE = 20416, MED = 63.5
+
+
+ed_prob: 
+3: 0.12158203125
+5: 0.15234375
+7: 0.1875
+9: 0.0625
+
+3 5 7 9 
+0.12158203125 0.15234375 0.1875 0.0625 
+total runtime: 0.021
+total time: 20288
