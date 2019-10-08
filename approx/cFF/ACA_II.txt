@@ -1,0 +1,14 @@
+/////////////////////////////Accuracy Configurable Adder//////////////////////////////////
+Accuracy Configurable Adder function has four inputs 
+	1. in1       = Input 1                       
+	2. in2       = Input 2                       
+	3. N         = Opernad Total Number of Bits  
+	4. Q         = Number of bits per Partitions 
+And one output
+	1. Result    = in1 + in2
+	
+Consider an example where we wish to add two 8-bit numbers 121 and 55. 
+And the partition size we choose is 4-bits
+Then it can be called from MATLAB Command Window
+Result = ACA_II(121,55,8,4)	
+//////////////////////////////////////////////////////////////////////////////////////////

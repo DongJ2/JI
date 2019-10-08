@@ -1,0 +1,15 @@
+/////////////////////////////Gracefully Degrading Adder///////////////////////////////////
+Gracefully Degrading Adder function has five inputs 
+	1. in1       = Input 1                       
+	2. in2       = Input 2                       
+	3. N         = Opernad Total Number of Bits  
+	4. M         = Total Number of Partitions 
+	5. P 		 = Prediction Bits Used
+And one output
+	1. Result    = in1 + in2
+	
+Consider an example where we wish to add two 8-bit numbers 121 and 55. 
+And the partition size we choose is 2-bits (M = 4) and 2-bit prediction (P = 2) is used.
+Then it can be called from MATLAB Command Window
+Result = GDA(121,55,8,4,2)	
+//////////////////////////////////////////////////////////////////////////////////////////

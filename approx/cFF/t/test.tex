@@ -1,0 +1,25 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{amsmath}
+\usepackage{gauss}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{bbm}
+\usepackage{graphicx}
+\usepackage{mathrsfs}
+\usepackage{geometry}
+\begin{document}
+$$
+D1=[0.5,0.5,0.5,0.5,0.2,0.2,0.2,0.2],D2=[0.6,0.6,0.6,0.6,0.4,0.4,0.4,0.4]
+$$
+$$
+D=0.4D1+0.6D2=[0.56,0.56,0.56,0.56,0.32,0.32,0.32,0.32]
+$$
+For $D1+D1$, $cFF_1=[],eFF_1=[]$\\
+For $D2+D2$, $cFF_2=[],eFF_2=[]$\\
+For $D1+D2$, $cFF_3=[],eFF_3=[]$\\
+\begin{align*}
+D+D&=(0.4D1+0.6D2)+(0.4D1+0.6D2)\\
+&=0.16D1*D1+0.48D1*D2+0.36D2*D2\\
+&=0.16cFF_1*D1*D1+0.48cFF_3*D1*D2+0.36cFF_2*D2*D2+0.16eFF_1*D1*D1+0.48eFF_3*D1*D2+0.36eFF_2*D2*D2
+\end{align*}
+\end{document}

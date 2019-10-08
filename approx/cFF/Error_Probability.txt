@@ -1,0 +1,14 @@
+/////////////////////////////Error Probability///////////////////////////////////
+Error Probability function has three inputs                      
+	1. N         = Opernad Total Number of Bits  
+	2. R         = Resultant Bits of Sub-Adder  
+	3. P 		 = Previous/Prediction Bits of Sub-Adder 
+And one output
+	1. error_prob = Probability of error for the desired adder
+	
+Consider an example where we wish to calculate the error probability of 16-bit adder. 
+And the resultant is 2-bits (R = 2) and 4-bit prediction (P = 4) is used.
+Then it can be called from MATLAB Command Window
+
+error_prob = Error_Probability(16,2,4)
+//////////////////////////////////////////////////////////////////////////////////////////

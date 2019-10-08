@@ -1,0 +1,15 @@
+/////////////////////////////Generic Accuracy Configurable Adder///////////////////////////////////
+Generic Accuracy Configurable Adder function has five inputs 
+	1. in1       = Input 1                       
+	2. in2       = Input 2                       
+	3. N         = Opernad Total Number of Bits  
+	4. R         = Resultant Bits of Sub-Adder  
+	5. P 		 = Previous/Prediction Bits of Sub-Adder 
+And one output
+	1. Result    = in1 + in2
+	
+Consider an example where we wish to add two 8-bit numbers 121 and 55. 
+And the resultant is 2-bits (R = 2) and 2-bit prediction (P = 2) is used.
+Then it can be called from MATLAB Command Window
+Result = GeAr(121,55,8,2,2)	
+//////////////////////////////////////////////////////////////////////////////////////////
