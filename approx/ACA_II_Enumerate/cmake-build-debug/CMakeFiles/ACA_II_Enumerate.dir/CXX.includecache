@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gy/Desktop/approximate/ACA_II_Enumerate/ACA_II.cpp
+cmath
+-
+ACA_II.h
+C:/Users/gy/Desktop/approximate/ACA_II_Enumerate/ACA_II.h
+iostream
+-
+
+C:/Users/gy/Desktop/approximate/ACA_II_Enumerate/ACA_II.h
+vector
+-
+
+C:/Users/gy/Desktop/approximate/ACA_II_Enumerate/main.cpp
+iostream
+-
+ACA_II.h
+C:/Users/gy/Desktop/approximate/ACA_II_Enumerate/ACA_II.h
+vector
+-
+map
+-
+cmath
+-
+

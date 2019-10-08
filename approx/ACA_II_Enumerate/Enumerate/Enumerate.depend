@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1530531451 source:d:\dj\approx\aca_ii_enumerate\aca_ii.cpp
+	<cmath>
+	"ACA_II.h"
+	<iostream>
+
+1530531451 d:\dj\approx\aca_ii_enumerate\aca_ii.h
+	<vector>
+
+1541050743 source:d:\dj\approx\aca_ii_enumerate\main.cpp
+	<iostream>
+	"ACA_II.h"
+	<vector>
+	<map>
+	<cmath>
+	<math.h>
+
