@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/dell/Desktop/research/PMF/Pr_err.cpp
+iostream
+-
+algorithm
+-
+vector
+-
+cmath
+-
+map
+-
+sstream
+-
+
