@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/gy/Desktop/approximate/ACA_II_Monte_Carlo/ACA_II.cpp
+cmath
+-
+ACA_II.h
+C:/Users/gy/Desktop/approximate/ACA_II_Monte_Carlo/ACA_II.h
+iostream
+-
+
+C:/Users/gy/Desktop/approximate/ACA_II_Monte_Carlo/ACA_II.h
+vector
+-
+
+C:/Users/gy/Desktop/approximate/ACA_II_Monte_Carlo/main.cpp
+iostream
+-
+cmath
+-
+ctime
+-
+random
+-
+ACA_II.h
+C:/Users/gy/Desktop/approximate/ACA_II_Monte_Carlo/ACA_II.h
+vector
+-
+map
+-
+
